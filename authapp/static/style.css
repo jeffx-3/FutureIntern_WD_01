@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans", serif;
+    max-width: 100%;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: center;
+    color: white;
+    top: 0;
+    padding: 10px;
+    width: 100%;
+    background: black;
+    position: fixed;
+}
+nav h3{
+    font-family: "Rubik Wet Paint", serif;
+    font-weight: 400;
+    color: white;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+
+}
+nav ul li{
+    list-style: none;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+/*forms styling*/
+
+.forms {
+    width: 300px;           
+    padding: 20px;           
+    background-color: #f4f4f9; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;   
+    margin: 0 auto;
+}
+.forms h2{
+    text-align: center;
+    margin-bottom: 5px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.forms form{
+    align-items: center;
+    justify-content: center;
+}
+
+form input{
+    padding: 10px;
+    width:100%;
+    margin-bottom: 12px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+button{
+    border-style: none;
+    padding: 12px;
+    background: black;
+    color: white;
+    margin-left: 35%;
+    cursor: pointer;
+    border-radius: 7px;
+    
+}
+button:hover{
+    
+    background: blue;
+    color: black;
+   
+    
+}
+.forms form p{
+    line-height: 1.4;
+    letter-spacing: 0.04em;
+
+}
+.forms form  a{
+    text-decoration: none;
+}
